@@ -221,16 +221,16 @@ disableHugoGeneratorInject = false
   #
 
   [[params.social]]
-    name = "bluesky"
-    url  = "https://bsky.app/profile/romancollinge.io"
-
-  [[params.social]]
     name = "twitter"
     url  = "https://x.com/romancollinge"
 
   [[params.social]]
     name = "email"
     url  = "mailto:romancollinge@outlook.com"
+  
+  [[params.social]]
+    name = "bluesky"
+    url  = "https://bsky.app/profile/romancollinge.io"
 
   [[params.social]]
     name = "github"
