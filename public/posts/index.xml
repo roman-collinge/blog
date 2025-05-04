@@ -1,19 +1,218 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Roman Collinge&#39;s Blog</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://romancollinge.io/posts/</link>
         <description>Recent content in Posts on Roman Collinge&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-gb</language>
-        <lastBuildDate>Sun, 04 May 2025 13:46:08 +0100</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 30 Apr 2025 14:33:10 +0100</lastBuildDate>
+        <atom:link href="https://romancollinge.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>What are AI Reasoning Models?</title>
+            <link>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</link>
+            <pubDate>Wed, 30 Apr 2025 14:33:10 +0100</pubDate>
+            
+            <guid>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</guid>
+            <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;AI has moved beyond simple chatbots. New reasoning models tackle problems step by step before answering. They don’t just blurt out a reply, they pause and think like a human would.&lt;/p&gt;
+&lt;p&gt;This post will explore what these reasoning models are, highlighting how they differ from standard Large Language Models (LLMs) and identifying the types of tasks where they excel. We will also look at OpenAI&amp;rsquo;s recent releases, o3 and o4-mini, and discuss how their improved capabilities are improving real-world problem-solving. Finally, we&amp;rsquo;ll cover how and when you can expect to gain access to these powerful new models.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>AI has moved beyond simple chatbots. New reasoning models tackle problems step by step before answering. They don’t just blurt out a reply, they pause and think like a human would.</p>
+<p>This post will explore what these reasoning models are, highlighting how they differ from standard Large Language Models (LLMs) and identifying the types of tasks where they excel. We will also look at OpenAI&rsquo;s recent releases, o3 and o4-mini, and discuss how their improved capabilities are improving real-world problem-solving. Finally, we&rsquo;ll cover how and when you can expect to gain access to these powerful new models.</p>
+<h2 id="what-are-reasoning-models">What are Reasoning Models?</h2>
+<p>Reasoning models are advanced LLMs trained to solve complex problems by breaking them into steps. This allows them to outperform standard models that would simply predict the most likely output based on the sole input.</p>
+<p><strong>Example:</strong> Given a math question, a reasoning model doesn’t guess the answer. It breaks the problem into parts and solves each sequentially.</p>
+<p>This method is called <em>Chain-of-Thought</em>.</p>
+<p>In ChatGPT, you can see the model think through each step before it answers.</p>
+<p>Thanks to this, reasoning models are much more accurate with logic, calculations, and deep research.</p>
+<h2 id="when-should-you-use-reasoning-models-vs-using-a-standard-model">When should you use reasoning models vs using a standard model?</h2>
+<p>The table below shows examples of how/where each type of model performs best.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Standard LLMs</th>
+          <th>Reasoning LLMs</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Explicit Tasks</td>
+          <td>Ambiguous Tasks</td>
+      </tr>
+      <tr>
+          <td>Cheaper Cost</td>
+          <td>Accuracy</td>
+      </tr>
+      <tr>
+          <td>Faster Execution Speed</td>
+          <td>Problem Solving</td>
+      </tr>
+  </tbody>
+</table>
+<p>Use a reasoning model for tasks that need judgment, nuance, or multiple steps.
+Use a standard model for simple tasks in which speed and cost matter more.</p>
+<p>That’s all well and good, but what do those decisions look like practically?</p>
+<table>
+  <thead>
+      <tr>
+          <th>Task</th>
+          <th>Model</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>“How to average a column in Excel?”</td>
+          <td>Standard</td>
+      </tr>
+      <tr>
+          <td>“Summarise this document.”</td>
+          <td>Standard</td>
+      </tr>
+      <tr>
+          <td>“Structure my presentation using the brief.”</td>
+          <td>Reasoning</td>
+      </tr>
+      <tr>
+          <td>“Extract all email addresses.”</td>
+          <td>Standard</td>
+      </tr>
+      <tr>
+          <td>“Compare job listings to compare requirements.”</td>
+          <td>Reasoning</td>
+      </tr>
+  </tbody>
+</table>
+<p>Both models have their place. Choosing the right one for the task helps you get the best results.</p>
+<h2 id="openais-o3-and-o4-mini">OpenAI’s o3 and o4-mini</h2>
+<p>OpenAI recently launched o3 and o4-mini, replacing the older o1 and o3-mini.
+They’re trained better, so the base models perform quite well, but the real improvements come from their ability to use “tools” during reasoning. These tools allow the models to do things such as browsing the web, running code and more.</p>
+<p>Let’s say you’re at the back of a classroom and you take an image of the problem that a professor scribbled on a whiteboard. A reasoning model might take the following steps:</p>
+<ol>
+<li>Zoom in on the problem on the whiteboard (using the image manipulation tool).</li>
+<li>Look up the method to solve it (web search).</li>
+<li>Solve it (run Python code, based on the method, and give the answer to the user).</li>
+</ol>
+<p>These models think, then act. They chain steps across tools to solve even more complex tasks than what they were previously capable of.</p>
+<h2 id="other-reasoning-models">Other Reasoning Models</h2>
+<p>I’ve focused on o3 and o4-mini (as they’re new and shiny) BUT there are other options.</p>
+<p>DeepSeek-R1 generated headlines a few months ago by competing with OpenAI’s o1 model. It had some worrying bias in its training but you are able to host and run it locally.</p>
+<p>This allows you to train it do anything you want. People have already trained the bias out of it, and you can access those models here: <a href="https://huggingface.co/nicoboss/DeepSeek-R1-Distill-Llama-70B-Uncensored-v2-Unbiased">https://huggingface.co/nicoboss/DeepSeek-R1-Distill-Llama-70B-Uncensored-v2-Unbiased</a></p>
+<p>Rumors are currently circulating about DeepSeek-R2 which I imagine will again compete with OpenAI’s forefront models.</p>
+<p>There’s also Gemini 2.5, Llama 4 and many other options.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>In conclusion, AI reasoning models represent a significant leap beyond traditional LLMs. By breaking down complex tasks and working through problems step-by-step, they offer improved accuracy in logic, calculations, and in-depth analysis.</p>
+<p>While standard LLMs remain valuable for simpler, faster tasks, reasoning models excel in scenarios requiring judgment, nuance, and multi-step problem-solving. As these models become more useful and more widely accessible, they are set to further transform how we approach and solve complex problems with AI.</p>
+<h2 id="additional-information">Additional Information</h2>
+<p>If you’d like more information on how reasoning models work, their use cases and more. I’d recommend taking a look at the OpenAI docs. <a href="https://platform.openai.com/docs/guides/reasoning-best-practices">https://platform.openai.com/docs/guides/reasoning-best-practices</a></p>
+<p>For more information on the o3 and o4-mini models particularly, especially from a technical perspective, see OpenAI’s official post: <a href="https://openai.com/index/introducing-o3-and-o4-mini/">https://openai.com/index/introducing-o3-and-o4-mini/</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>What actually is Retrieval Augmented Generation? (RAG)</title>
+            <link>https://romancollinge.io/posts/2025/04/what-actually-is-retrieval-augmented-generation-rag/</link>
+            <pubDate>Wed, 23 Apr 2025 14:48:17 +0100</pubDate>
+            
+            <guid>https://romancollinge.io/posts/2025/04/what-actually-is-retrieval-augmented-generation-rag/</guid>
+            <description>&lt;p&gt;This is a fun one for me. Some of my biggest projects to date have been using Retrieval Augmented Generation (RAG) at scale.&lt;/p&gt;
+&lt;p&gt;This article assumes you know the basics of what a Large Language Model (LLM) is, and what they do.&lt;/p&gt;
+&lt;h2 id=&#34;what&#34;&gt;What:&lt;/h2&gt;
+&lt;p&gt;Let’s start with what a RAG pipeline looks like. At its core, RAG combines the power of search with the reasoning capabilities of an LLM.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The user enters a query&lt;/strong&gt; - something like “What were the main risks highlighted in last month’s client report?”&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A retrieval function runs&lt;/strong&gt; - it searches your provided sources for the most relevant information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;That context is passed to the LLM&lt;/strong&gt; - the model now has access to both the user’s question and relevant supporting info.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The LLM generates an informed response&lt;/strong&gt; - grounded in your actual data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;why-use-rag&#34;&gt;Why use RAG:&lt;/h2&gt;
+&lt;p&gt;You&amp;rsquo;re not just using the model&amp;rsquo;s training data. You&amp;rsquo;re giving it real context from your sources, helping to generate answers that are more accurate and relevant.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>This is a fun one for me. Some of my biggest projects to date have been using Retrieval Augmented Generation (RAG) at scale.</p>
+<p>This article assumes you know the basics of what a Large Language Model (LLM) is, and what they do.</p>
+<h2 id="what">What:</h2>
+<p>Let’s start with what a RAG pipeline looks like. At its core, RAG combines the power of search with the reasoning capabilities of an LLM.</p>
+<ol>
+<li><strong>The user enters a query</strong> - something like “What were the main risks highlighted in last month’s client report?”</li>
+<li><strong>A retrieval function runs</strong> - it searches your provided sources for the most relevant information.</li>
+<li><strong>That context is passed to the LLM</strong> - the model now has access to both the user’s question and relevant supporting info.</li>
+<li><strong>The LLM generates an informed response</strong> - grounded in your actual data.</li>
+</ol>
+<h2 id="why-use-rag">Why use RAG:</h2>
+<p>You&rsquo;re not just using the model&rsquo;s training data. You&rsquo;re giving it real context from your sources, helping to generate answers that are more accurate and relevant.</p>
+<p>This lowers the chance of “hallucinations,” where an LLM confidently pretends to know something that it doesn’t.</p>
+<p>Finetuning a model can be expensive, slow, and doesn’t always work. RAG scales better and is more likely to produce accurate answers. Finetuning still matters for shaping model behavior or adding general knowledge. But when I need a reliable chatbot for specific content, I always choose RAG.</p>
+<p>In this post, I’ll cover the basics of how RAG works in practice. I won’t dive into code here, but I’ll share a technical article on building a RAG pipeline using Python in the next few weeks. Once that’s completed, you’ll see it linked below.</p>
+<h2 id="what-actually-is-rag">What actually is RAG?</h2>
+<p>In practice, RAG is best thought of as 3 steps, with 3 core components.</p>
+<p><strong>Steps:</strong> Preprocessing, Retrieval and Augmented Generation.</p>
+<p><strong>Components:</strong> Embedding Model, a Vector Database and an LLM.</p>
+<p>For now we’ll ignore any frontend considerations about how the pipeline gets its user input. You can imagine this as a command line tool, or a chatbot or whatever floats your boat.</p>
+<p>That’s a lot of new terms. Let’s define them:</p>
+<ul>
+<li><strong>Embedding Model</strong> - Turns text into vectors.</li>
+<li><strong>Vectors</strong> - Numerical representations of text. Captures meaning and context.</li>
+<li><strong>Vector Database</strong> - A collection of vectors that can be queried like a regular database. This can be as simple as a Postgres plugin, or a custom solution like ChromaDB or Pinecone.</li>
+</ul>
+<h2 id="preprocessing">Preprocessing:</h2>
+<p>To perform RAG, you first need data to retrieve. In my projects, this has involved preprocessing thousands of files and keeping them updated live on a vector database. This is important, especially in Enterprise solutions, as we want the most up to date, reliable data.</p>
+<p>But it doesn&rsquo;t have to be that complex. You can start with just one document as the source for a RAG system and that’s exactly how I started when figuring this out.</p>
+<p>So what do our preprocessing steps look like? Using our example of a single document you’d:</p>
+<ul>
+<li><strong>Split the document into chunks</strong> - keeps context manageable.</li>
+<li><strong>Clean each chunk</strong> - removing noise like extra whitespace or irrelevant symbols.</li>
+<li><strong>Embed each chunk</strong> - turning it into a vector using an embedding model.</li>
+<li><strong>Upload to a vector database</strong> - storing each vector alongside its orginal content so it can be searched.</li>
+</ul>
+<p>With that done you could move on to…</p>
+<h2 id="retrieval">Retrieval:</h2>
+<p>With the information now stored as vectors in a vector database, you can setup your retrieval steps.</p>
+<ol>
+<li><strong>User inputs a query</strong> – “What were the main risks highlighted in last month’s client report?”</li>
+<li><strong>Query passed through the SAME embedding model</strong> – it’s embedded just like all other vectors in your database.</li>
+<li><strong>Similar vectors are retrieved</strong> – the system finds vectors most similar to the user’s query.</li>
+<li><strong>Context is returned</strong> – the content linked to those vectors is used to inform the response.</li>
+</ol>
+<p>I’ve had trouble explaining what “similar vectors” means here. It’s tough to describe. Like I explained earlier, vectors aren’t just numbers - they represent meaning and context.</p>
+<p>This diagram shows it clearly:</p>
+<p><img src="word_vectors_diagram.png" alt="Alt Text"></p>
+<p>(Credit to 3blue1brown’s fantastic video on “How word vectors encode meaning.”)</p>
+<p>Imagine these vectors as points in a complex graph. This makes it easier to see how meaning can be captured with math.</p>
+<p>In this simplified example, the vectors for “man” and “woman” occupy similar spaces. So do “king” and “queen.” Mathematically, we can infer that these words are related.</p>
+<p><strong>Here’s the interesting part:</strong> the difference between “man” and “woman” is almost the same as the difference between “king” and “queen.” The yellow arrows, representing the differences, are nearly parallel and are similar in length.</p>
+<p><strong>This means:</strong> E(queen) - E(king) ≈ E(woman) - E(man)</p>
+<p><strong>Rearranged:</strong> E(queen) ≈ E(king) - E(man) + E(woman)</p>
+<p><strong>Or in plain english:</strong> If you have a King who isn’t a man but is in fact a woman what are they? A Queen.</p>
+<p>This is how vectors capture meaning. Using the same idea, we retrieve similar context from our database by finding vectors close to the one created from the user’s input.</p>
+<p>Pretty cool, yeah?</p>
+<p>With context retrieved we can move on to…</p>
+<h2 id="augmented-generation">Augmented Generation</h2>
+<p>Now this part is the most simple. Simply take the context returned from retrieval and pass it to an LLM.</p>
+<p>Usually, you’d do this by having a formatted prompt:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Using this context:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#e6db74">{</span>context<span style="color:#e6db74">}</span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Answer this:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"></span><span style="color:#e6db74">{</span>user_query<span style="color:#e6db74">}</span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Keep your answer concise. Only use the information provided. 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">If no information is provided, simply state that you cannot answer 
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">the question due to lack of context in the database.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>
+</span></span></code></pre></div><p>By providing the context, and ensuring strict guidelines about adhering to the context we greatly improve the likelihood of an accurate answer.</p>
+<p>When the LLM receives this prompt, and returns the informed answer to the user, the pipeline is complete.</p>
+<h2 id="conclusion">Conclusion:</h2>
+<p>So now you know what RAG is, why it’s useful and how it works. As mentioned I’ll release a more technical blog on how to build a RAG pipeline in Python at some point in the next few weeks.</p>
+<p>You’ll find it linked here once it’s completed: &hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>What actually is Tech Debt?</title>
-            <link>http://localhost:1313/posts/2025/05/what-actually-is-tech-debt/</link>
-            <pubDate>Sun, 04 May 2025 13:46:08 +0100</pubDate>
+            <link>https://romancollinge.io/posts/2025/04/what-actually-is-tech-debt/</link>
+            <pubDate>Sun, 20 Apr 2025 13:46:08 +0100</pubDate>
             
-            <guid>http://localhost:1313/posts/2025/05/what-actually-is-tech-debt/</guid>
+            <guid>https://romancollinge.io/posts/2025/04/what-actually-is-tech-debt/</guid>
             <description>&lt;p&gt;If you’re like me, when you first heard “Tech Debt” you might have thought someone hadn’t paid for their new PC. That’s not quite the case.&lt;/p&gt;
 &lt;p&gt;So, what is tech debt?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; “Tech debt is the the build up of potential problems from shortcuts taken in a project.”&lt;/p&gt;

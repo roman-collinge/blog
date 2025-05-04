@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical on Roman Collinge&#39;s Blog</title>
+    <link>https://romancollinge.io/tags/technical/</link>
+    <description>Recent content in Technical on Roman Collinge&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 30 Apr 2025 14:33:10 +0100</lastBuildDate>
+    <atom:link href="https://romancollinge.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are AI Reasoning Models?</title>
+      <link>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</link>
+      <pubDate>Wed, 30 Apr 2025 14:33:10 +0100</pubDate>
+      <guid>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;AI has moved beyond simple chatbots. New reasoning models tackle problems step by step before answering. They don’t just blurt out a reply, they pause and think like a human would.&lt;/p&gt;&#xA;&lt;p&gt;This post will explore what these reasoning models are, highlighting how they differ from standard Large Language Models (LLMs) and identifying the types of tasks where they excel. We will also look at OpenAI&amp;rsquo;s recent releases, o3 and o4-mini, and discuss how their improved capabilities are improving real-world problem-solving. Finally, we&amp;rsquo;ll cover how and when you can expect to gain access to these powerful new models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What actually is Retrieval Augmented Generation? (RAG)</title>
+      <link>https://romancollinge.io/posts/2025/04/what-actually-is-retrieval-augmented-generation-rag/</link>
+      <pubDate>Wed, 23 Apr 2025 14:48:17 +0100</pubDate>
+      <guid>https://romancollinge.io/posts/2025/04/what-actually-is-retrieval-augmented-generation-rag/</guid>
+      <description>&lt;p&gt;This is a fun one for me. Some of my biggest projects to date have been using Retrieval Augmented Generation (RAG) at scale.&lt;/p&gt;&#xA;&lt;p&gt;This article assumes you know the basics of what a Large Language Model (LLM) is, and what they do.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what&#34;&gt;What:&lt;/h2&gt;&#xA;&lt;p&gt;Let’s start with what a RAG pipeline looks like. At its core, RAG combines the power of search with the reasoning capabilities of an LLM.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;The user enters a query&lt;/strong&gt; - something like “What were the main risks highlighted in last month’s client report?”&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;A retrieval function runs&lt;/strong&gt; - it searches your provided sources for the most relevant information.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;That context is passed to the LLM&lt;/strong&gt; - the model now has access to both the user’s question and relevant supporting info.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;The LLM generates an informed response&lt;/strong&gt; - grounded in your actual data.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;why-use-rag&#34;&gt;Why use RAG:&lt;/h2&gt;&#xA;&lt;p&gt;You&amp;rsquo;re not just using the model&amp;rsquo;s training data. You&amp;rsquo;re giving it real context from your sources, helping to generate answers that are more accurate and relevant.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

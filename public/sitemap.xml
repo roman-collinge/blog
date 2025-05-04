@@ -2,23 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-04T13:46:08+01:00</lastmod>
+    <loc>https://romancollinge.io/tags/ai/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-04T13:46:08+01:00</lastmod>
+    <loc>https://romancollinge.io/tags/largelanguagemodels/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-04T13:46:08+01:00</lastmod>
+    <loc>https://romancollinge.io/posts/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/untagged/</loc>
-    <lastmod>2025-05-04T13:46:08+01:00</lastmod>
+    <loc>https://romancollinge.io/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/2025/05/what-actually-is-tech-debt/</loc>
-    <lastmod>2025-05-04T13:46:08+01:00</lastmod>
+    <loc>https://romancollinge.io/tags/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://romancollinge.io/tags/technical/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</loc>
+    <lastmod>2025-04-30T14:33:10+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/tags/retrievalaumentedgeneration/</loc>
+    <lastmod>2025-04-23T14:48:17+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/posts/2025/04/what-actually-is-retrieval-augmented-generation-rag/</loc>
+    <lastmod>2025-04-23T14:48:17+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/tags/philosophical/</loc>
+    <lastmod>2025-04-20T13:46:08+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/tags/softwareengineering/</loc>
+    <lastmod>2025-04-20T13:46:08+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/posts/2025/04/what-actually-is-tech-debt/</loc>
+    <lastmod>2025-04-20T13:46:08+01:00</lastmod>
+  </url><url>
+    <loc>https://romancollinge.io/about/</loc>
+  </url><url>
+    <loc>https://romancollinge.io/categories/</loc>
+  </url><url>
+    <loc>https://romancollinge.io/series/</loc>
   </url>
 </urlset>

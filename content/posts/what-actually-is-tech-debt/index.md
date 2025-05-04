@@ -1,11 +1,12 @@
 ---
 title: "What actually is Tech Debt?"
-date: 2025-05-04T13:46:08+01:00
+date: 2025-04-20T13:46:08+01:00
 draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - Philosophical
+  - SoftwareEngineering
 ---
 If you’re like me, when you first heard “Tech Debt” you might have thought someone hadn’t paid for their new PC. That’s not quite the case.
 
