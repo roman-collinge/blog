@@ -1,7 +1,7 @@
 ---
 title: "What actually is Tech Debt?"
 date: 2025-05-04T13:46:08+01:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
