@@ -1,0 +1,12 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Roman Collinge&#39;s Blog</title>
+        <link>https://romancollinge.io/posts/</link>
+        <description>Recent content in Posts on Roman Collinge&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-gb</language>
+        <lastBuildDate>Sun, 04 May 2025 13:46:08 +0100</lastBuildDate>
+        <atom:link href="https://romancollinge.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+    </channel>
+</rss>
