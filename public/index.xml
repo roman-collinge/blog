@@ -30,11 +30,11 @@
       <description>&lt;p&gt;If you’re like me, when you first heard “Tech Debt” you might have thought someone hadn’t paid for their new PC. That’s not quite the case.&lt;/p&gt;&#xA;&lt;p&gt;So, what is tech debt?&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; “Tech debt is the the build up of potential problems from shortcuts taken in a project.”&lt;/p&gt;&#xA;&lt;p&gt;Let’s try to put it into perspective with an example.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Situation:&lt;/strong&gt; You&amp;rsquo;re working on a project with a tight deadline to present a Minimum Viable Product. Budgets become limited, but you need to impress stakeholders to secure more funding.&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
+      <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;h2 id=&#34;about-this-blog&#34;&gt;About this Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog serves as a personal record of what I&amp;rsquo;m learning, building and thinking about. It&amp;rsquo;s primarily interesting for developers, engineers and builders.&lt;/p&gt;&#xA;&lt;p&gt;I post about software engineering, AI, system design, cybersecurity&amp;hellip; basically whatever I&amp;rsquo;m interested in/working on at the time of writing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an AI Engineer &amp;amp; Technical Advisor at JBA Consulting. I work mainly in Python, but have experience in a handful of other languages.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;about-this-blog&#34;&gt;About this Blog&lt;/h2&gt;&#xA;&lt;p&gt;This blog serves as a personal record of what I&amp;rsquo;m learning, building and thinking about. It&amp;rsquo;s primarily interesting for developers, engineers and builders.&lt;/p&gt;&#xA;&lt;p&gt;I post about software engineering, AI, system design, cybersecurity&amp;hellip; basically whatever I&amp;rsquo;m interested in/working on at the time of writing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m an AI Engineer &amp;amp; Technical Advisor at JBA Consulting. I work mainly in Python, but have experience in a handful of other languages.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

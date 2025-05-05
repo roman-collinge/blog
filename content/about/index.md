@@ -1,14 +1,10 @@
 ---
 title: "About"
-date: 2025-05-05T14:48:17+01:00
 draft: false
 toc: false
-images:
 tags:
-  - Technical
-  - RetrievalAumentedGeneration
+  - About
 ---
-# About
 ## About this Blog
 
 This blog serves as a personal record of what I'm learning, building and thinking about. It's primarily interesting for developers, engineers and builders.
