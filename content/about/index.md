@@ -1,3 +1,13 @@
+---
+title: "About"
+date: 2025-05-05T14:48:17+01:00
+draft: false
+toc: false
+images:
+tags:
+  - Technical
+  - RetrievalAumentedGeneration
+---
 # About
 ## About this Blog
 
