@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Roman Collinge&#39;s Blog</title>
-    <link>https://romancollinge.io/tags/ai/</link>
+    <link>http://localhost:1313/tags/ai/</link>
     <description>Recent content in AI on Roman Collinge&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 30 Apr 2025 14:33:10 +0100</lastBuildDate>
-    <atom:link href="https://romancollinge.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What are AI Reasoning Models?</title>
-      <link>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</link>
+      <link>http://localhost:1313/posts/2025/04/what-are-ai-reasoning-models/</link>
       <pubDate>Wed, 30 Apr 2025 14:33:10 +0100</pubDate>
-      <guid>https://romancollinge.io/posts/2025/04/what-are-ai-reasoning-models/</guid>
+      <guid>http://localhost:1313/posts/2025/04/what-are-ai-reasoning-models/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;AI has moved beyond simple chatbots. New reasoning models tackle problems step by step before answering. They don’t just blurt out a reply, they pause and think like a human would.&lt;/p&gt;&#xA;&lt;p&gt;This post will explore what these reasoning models are, highlighting how they differ from standard Large Language Models (LLMs) and identifying the types of tasks where they excel. We will also look at OpenAI&amp;rsquo;s recent releases, o3 and o4-mini, and discuss how their improved capabilities are improving real-world problem-solving. Finally, we&amp;rsquo;ll cover how and when you can expect to gain access to these powerful new models.&lt;/p&gt;</description>
     </item>
   </channel>
